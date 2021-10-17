@@ -11426,3 +11426,18 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+/* Button */
+.cvbutton a{
+  width:40px;
+  height: 25px;
+  text-decoration: none;
+  /* list-style-type: none; */
+  color:white;
+  background-color:  #00004d;
+  border-radius: 20px;
+  border:2px solid var(--bs-gray-800);
+
+}
+.cvbutton a:hover{
+  background-color: #000066;
+}
