@@ -11444,3 +11444,17 @@ section.resume-section .resume-section-content {
 .cvbutton:hover{
   background-color: #000066;
 }
+
+
+.Re-created{
+  background-color: black;
+}
+.Re-created li{
+  list-style-type: none;
+}
+.Re-created a{
+  font-size: 22px;
+  text-decoration: none;
+  
+
+}
