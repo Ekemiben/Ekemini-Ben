@@ -11335,6 +11335,49 @@ p.lead {
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
+.project-card-container{
+  /* grid-template-columns: repeat(auto-fill, 60px); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border:2px solid slateblue;
+ 
+}
+.project-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  height: 250px;
+  border: 2px solid slategrey;
+  padding: 5px;
+  margin: 7px;
+  
+}
+.project-card:hover{
+  
+}
+.img-container{
+  height: 240px;
+  width: 370px;
+
+}
+.img-container img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    /* width: 150px;    */
+    
+    object-fit: fill;
+    object-position: 50% 50%;
+}
+.img-container img:hover {
+  transform: scaleX(-1);
+}
 
 @media (min-width: 992px) {
   #sideNav {
